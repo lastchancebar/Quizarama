@@ -3,5 +3,21 @@
     margin-bottom: 0.5rem;
     width: 100%;
     font-size: 1.8rem;
+    border:0.1 rem solid rgb(76, 155, 225, 0.25);
     background-color: antiquewhite;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 pink;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: brown;
+    color:antiquewhite;
+}
+.choice-text{
+    padding: 1.5rem;
 }
