@@ -11,32 +11,22 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = [
-    {
-    question:"What color is a banana?",
-    choice1: "<yellow>",
-    choice2: "<red>",
-    choice3: "<white>",
-    choice4: "<blue>",
-    answer: 1
-    },
-    {
-        question:"What color is Liverpool FC?",
-        choice1: "<yellow>",
-        choice2: "<red>",
-        choice3: "<white>",
-        choice4: "<blue>",
-        answer: 2
-        },
-        {
-            question:"What color is a sparrow?",
-            choice1: "<yellow>",
-            choice2: "<red>",
-            choice3: "<white>",
-            choice4: "<brown>",
-            answer: 4
-        },
-]
+let questions = [];
+
+  fetch("questions.json").then(res =>{
+      return res.json();
+  })
+  .then(loadedQuestions => {
+console.log(loadedQuestions);
+questions = loadedQuestions;
+startGame();
+  })
+.catch(err => {
+    console.error(err);
+
+  });  
+    
+
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
