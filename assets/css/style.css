@@ -106,6 +106,17 @@ h3 {
     box-shadow:none;
     transform: none;
 }
+
+/*instructions*/
+
+#instructions {
+    font-size: 2.4rem;
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+#instructions> li{
+    padding-bottom: 0.5rem;
+}
 /*forms*/
 form{
     width: 100%;
