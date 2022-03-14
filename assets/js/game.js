@@ -1,4 +1,3 @@
-
 const question = document.getElementById('question');
 const choices = Array.from (document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById('progressText');
@@ -32,7 +31,7 @@ answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_ans
 
 answerChoices.forEach((choice, index) =>{ 
     formattedQuestion["choice" +  (index+1)] = choice;
-}) 
+}); 
 return formattedQuestion;
 });
 
