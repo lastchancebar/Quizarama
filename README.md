@@ -110,8 +110,16 @@ If the user selects a correct answer , the answer box colour background changes 
   * The user is invited to play the game again or go back to the home page.
   * The home page contains a button for high scores which the user may check to see if they are among the top five high scorers.
   
+  
+      [back to top](<#contents>)
   * ### High Scores Page
   ![high Scores Page](assets/images/readme-images/qhighscores.png)
   This page is accessed by clicking the high scores button situated in the [home page](index.html). The page keeps a list of the
    names input and matching scores of the top five scorers only.
   There is a home button under the list to guide the user away from the page.
+
+      [back to top](<#contents>)
+
+      ## Future Features
+      * Add  two more  levels of difficulty 
+      * Add other categories
