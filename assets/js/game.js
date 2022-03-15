@@ -34,7 +34,7 @@ answerChoices.forEach((choice, index) =>{
 }); 
 return formattedQuestion;
 });
-
+let startGame="";
 startGame();
   })
 .catch(err => {

@@ -1,4 +1,4 @@
-# **_Quiarama - the Geography Quiz_**
+# **_Quizarama - the Geography Quiz_**
 
 Quizarama is a multiple choice geography quiz. The site is targeted at students and quiz fans and is intended to keep the user interested and challenged with the breadth of questions which are challenging but not too difficult so as to keep the end user interested in completleing the challenge and replaying the game.
 
@@ -105,7 +105,7 @@ If the user selects a correct answer , the answer box colour background changes 
 
       * ### Name and save score page
   ![name and score page](assets/images/readme-images/qend.png)
-  * Once the user has completed the 10 questions theis page automatically loads with the users score.
+  * Once the user has completed the 10 questions this page automatically loads with the users score.
   * The user is invited to enter their name and save their score.
   * The user is invited to play the game again or go back to the home page.
   * The home page contains a button for high scores which the user may check to see if they are among the top five high scorers.
@@ -116,10 +116,67 @@ If the user selects a correct answer , the answer box colour background changes 
   ![high Scores Page](assets/images/readme-images/qhighscores.png)
   This page is accessed by clicking the high scores button situated in the [home page](index.html). The page keeps a list of the
    names input and matching scores of the top five scorers only.
-  There is a home button under the list to guide the user away from the page.
+  There is a home button under the list when the user wishes to navigate away from the page.
 
-      [back to top](<#contents>)
+  [back to top](<#contents>)
 
-      ## Future Features
-      * Add  two more  levels of difficulty 
+  *  ## Future Features
+      * Add more  levels of difficulty 
       * Add other categories
+  
+  # Technologies Used
+  * [HTML5](https:..html.spec.whatwg.org/) - prvies the content nad structure for the website.
+  * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+  * [JS](https://www.javascript.com/about) - makes the quiz interactive.
+  * [Github](https://github.com/) - used to host and edit the website.
+  *  [gitpod](https://www.gitposd.io/#get-started) - used to deploy the website.
+
+
+  [back to top](<#contents>) 
+
+  # Deployment
+### **To deploy the project**
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
+1. In the GitHub repository, navigate to the **Settings** tab.
+
+2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+
+3. Under Source, select the branch to **master**, then click **save**.
+
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![GitHub pages deployed image](assets/images/readme-images/qdeploy.png)
+
+  The live link to the Github repository can be found here -  https://github.com/lastchancebar/quizarama
+
+
+### **To fork the repository on GitHub**
+
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+
+1. Log in to **GitHub** and locate the [repository](https://github.com/lastchancebar/quizarama).
+2. On the right hand side of the page inline with the repository name is a button called **'Fork'**. Click on the button to create a copy of the original repository in your GitHub Account.
+![GitHub forking process image](assets/images/readme-images/qfork.jpg)
+
+
+
+### **To create a local clone of this project**
+
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab. 
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+
+![Cloning image](assets/images/readme-images/qclone.png)
+
+3. In your IDE of choice, open **Git Bash**.
+
+4. Change the current working directory to the location where you want the cloned directory to be made.
+
+5. Type **git clone**, and then paste the URL copied from GitHub.
+
+6. Press **enter** and the local clone will be created.
+
+ [back to top](<#contents>) 
+  
