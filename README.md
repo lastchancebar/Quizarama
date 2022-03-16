@@ -136,7 +136,7 @@ If the user selects a correct answer , the answer box colour background changes 
 
   [back to top](<#contents>) 
   # Testing
-Click <a href=(https://github.com/lastchancebar/quizarama/blob/main/testing.md)>here </a>for more information on testing of Lackeen Castle.
+Click [here](testing.md) for information on testing of Quizarama.
   
 
   # Deployment
@@ -213,7 +213,7 @@ The method from cloning a project from GitHub is below:
 
 # Acknowledgements
 
-The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, especially Dave Horrocks, and all at the Code Institute for their help and support especially Kasia, my course administrator. 
+The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, especially Dave Horrocks and Rachel Rock, and all at the Code Institute for their help and support, especially Kasia, my course administrator. 
 
 Finally, I would like to acknowledge the class of strong and supportive women I am lucky to be part of and Mayo Sligo Leitrim ETB for giving us the opportunity to acquire the valuable skills with which I know we will go forth and conquer the world (of computing!!)
 
