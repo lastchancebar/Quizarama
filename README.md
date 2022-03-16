@@ -123,16 +123,21 @@ If the user selects a correct answer , the answer box colour background changes 
   *  ## Future Features
       * Add more  levels of difficulty 
       * Add other categories
+      * Store high scores and names in a secure storage database.
   
   # Technologies Used
   * [HTML5](https:..html.spec.whatwg.org/) - prvies the content nad structure for the website.
-  * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
-  * [JS](https://www.javascript.com/about) - makes the quiz interactive.
+  * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling. 
+  * [JS](https://www.javascript.com/about) - to manipulate the HTML pages to make the quiz interactive.
   * [Github](https://github.com/) - used to host and edit the website.
   *  [gitpod](https://www.gitposd.io/#get-started) - used to deploy the website.
+  *  [Google Local Storage](https://developer.chrome.com/docs/devtools/storage/localstorage/) - for storing high scores and users. It is not secure but perfect for this project!
 
 
   [back to top](<#contents>) 
+  # Testing
+Click <a href=(https://github.com/lastchancebar/quizarama/blob/main/testing.md)>here </a>for more information on testing of Lackeen Castle.
+  
 
   # Deployment
 ### **To deploy the project**
@@ -180,3 +185,36 @@ The method from cloning a project from GitHub is below:
 
  [back to top](<#contents>) 
   
+  # Credits
+
+### Contents
+* The fonts came from Github.
+* 
+  
+* I used a youtube tutorial by James Quick to learn how to code the following 
+  *   a progress bar
+  *   a spinning loader
+  *   a high scores list with only 5 entries.
+  
+
+  
+*  The read me format was inspired by a Project  [Wawa Woods](https://lastchancebar-wawaswoods-3jkv8uef12f.ws-eu30.gitpod.io/) by Ewan Colquhoun which I forked with thanks.
+ 
+
+
+### Media
+
+* The quiz questions came from a API [Open Trivia DataBase](https://opentdb.com).
+
+
+
+
+
+
+# Acknowledgements
+
+The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, especially Dave Horrocks, and all at the Code Institute for their help and support especially Kasia, my course administrator. 
+
+Finally, I would like to acknowledge the class of strong and supportive women I am lucky to be part of and Mayo Sligo Leitrim ETB for giving us the opportunity to acquire the valuable skills with which I know we will go forth and conquer the world (of computing!!)
+
+Darina Kelly 2022.
