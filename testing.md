@@ -23,11 +23,16 @@ The CSS Validator results are below:
   ![css validator test result](assets/images/readme-images/tcssqstyle.png)
   
   The JavaScript validator results are below:
+  ![Game.js](assets/images/readme-images/tjsqgame.png)
+
+  ![end.js](assets/images/readme-images/tjsqend.png)
+
+  ![highscores.js](assets/images/readme-images/tjsqhighscore.png)
 
 
   ## Responsiveness 
 
-  * The responsive design tests were carried out manually with [Google Chrom DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+  * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 ## Browser Compatibilty
 

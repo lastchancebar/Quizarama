@@ -50,7 +50,7 @@ const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
 //Start game at 0 
-startGame = () => {
+function startGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
@@ -59,8 +59,8 @@ startGame = () => {
     game.classList.remove("hidden");
     loader.classList.add("hidden");
 
-};
-getNewQuestion = () =>{
+}
+function getNewQuestion (){
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem ("mostRecentScore", score);
         return window.location.assign("end.html");
@@ -80,21 +80,21 @@ getNewQuestion = () =>{
     question.innerText = currentQuestion.question;
 //load choices 
     choices.forEach(choice =>{
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
     });
 //To not repeat question in the round
 availableQuestions.splice(questionIndex, 1);
 acceptingAnswers = true;
 
-};
+}
 //match choice to correct answer and increment score if apply
 choices.forEach(choice => {
     choice.addEventListener('click', e =>{
         if(!acceptingAnswers) return;
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset["number"];
+        const selectedAnswer = selectedChoice.dataset.number;
         
         const classToApply =
         selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
@@ -111,8 +111,8 @@ choices.forEach(choice => {
     },1000);
 });
 });
-incrementScore = num =>{
+function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
-};
+}
 
