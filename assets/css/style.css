@@ -1,20 +1,13 @@
 
-
+/* color and font size throughout*/
 :root{
     background-color: antiquewhite;
     box-sizing: border-box;
-    /*background-image: url(../images/notebooksmall.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;*/
-  
-    
+       
     font-size: 62.5%;
 }
 *{ 
-    
-  
+     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
@@ -49,7 +42,8 @@ h3 {
     font-size: 2.8rem;
     font-weight: 500;
 }
-/* Utilitiies*/
+/* style pages to flex*/
+
 .container
 { width:100vw;
     height:100vh;
@@ -82,19 +76,21 @@ h3 {
 .hidden {
     display: none;
 }
-/*buttons*/
+/* Styling Buttons*/
+
 .btn {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #234562;
+    border: 0.1rem solid #202325;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #234562;
+    color: #202325;
     background-color: antiquewhite;
 }
 
+/* hover effect*/
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 brown;
@@ -117,7 +113,7 @@ h3 {
 #instructions> li{
     padding-bottom: 0.5rem;
 }
-/*forms*/
+/*form for username*/
 form{
     width: 100%;
     display: flex;

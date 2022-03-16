@@ -6,38 +6,36 @@ Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target
 
 ![Quizarama responsive design](assets/images/readme-images/qresponsive.png)
 
-# Comtents
+# Contents
 
-*[ **User Experience UX**] (<#user-experience-ux>)
+* [ **User Experience UX**](<#user-experience-ux>)
     * [User stories](#<user-stories>)
-    * [Wireframes] (<#wireframes>)
+    * [Wireframes](<#wireframes>)
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
     * [Typography](<#typography>)
     * [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
   * [**Home**](<#home>)
-    *[Instructions] (<#instructions.html>)
-    *[Play](<#game.html>)
-    *[Username](<#end.html>)
-    *[Save_scores](<#end.html>)
-   *[**Game**](<#game.html>) 
-    *[Game_HTML](<#game.html>)
-    *[Game_JS] (<#game.js>)
-*[**End**](<#end.html>) 
-    *[End_HTML](<#end.html>)
-    *[End_JS] (<#end.js>)
-    *[**High_Scores**](<#highscores.html>) 
-    *[highscores_HTML](<#highscores.html>)
-    *[highscores_JS] (<#highscores.js>)
-    *[Local_Storage]
+    * [Instructions](<#instructions.html>)
+    * [Play](<#game.html>)
+    * [Username](<#end.html>)
+    * [Save scores](<#end.html>)
+   * [**Game**](<#game.html>) 
+    
+  * [**Name and save score**](<#end.html>) 
+    
+  * [**High Scores**](<#highscores.html>) 
+   
+
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
-* [**Deployment](<#deployment>)
-* *[**Credits**] (<#credits>)
-    *[Content](<#content>)
-    *[Media] (<#media>)
-   *[**Acknowledgments**](<#acknowledgements>) 
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [Content](<#content>)
+    * [Media](<#media>)
+  
+* [**Acknowledgments**](<#acknowledgments>) 
 
 
 # User Experience (UX)

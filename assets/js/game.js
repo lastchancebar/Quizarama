@@ -1,19 +1,21 @@
+//calling the DOM for quiz components
 const question = document.getElementById('question');
+//Node list converted to array
 const choices = Array.from (document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById('progressText');
 const scoreText = document. getElementById('score');
 const progressBarFull = document.getElementById("progressBarFull");
 const loader = document.getElementById('loader');
 const game = document.getElementById("game");
-
-let currentQuestion = {};
+//quiz components
+let currentQuestion = {}; 
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [];
-
+ //get random questions from Open Trivia Database - external API
 fetch("https://opentdb.com/api.php?amount=10&category=22&difficulty=easy&type=multiple")
 .then( function (res) {
         return res.json();
@@ -42,11 +44,12 @@ startGame();
 
   });  
     
-
+// 10 questions per game - 10points per correct answer
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
+//Start game at 0 
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -64,27 +67,28 @@ getNewQuestion = () =>{
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    
     /* update the progress bar*/
 
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
 
 
-
+//Load a question
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
-
+//load choices 
     choices.forEach(choice =>{
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
     });
-
+//To not repeat question in the round
 availableQuestions.splice(questionIndex, 1);
 acceptingAnswers = true;
 
 };
-
+//match choice to correct answer and increment score if apply
 choices.forEach(choice => {
     choice.addEventListener('click', e =>{
         if(!acceptingAnswers) return;
