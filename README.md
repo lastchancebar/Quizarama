@@ -35,7 +35,7 @@ Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target
     * [Content](<#content>)
     * [Media](<#media>)
   
-* [**Acknowledgments**](<#acknowledgments>) 
+* [**Acknowledgements**](<#acknowledgements>) 
 
 
 # User Experience (UX)
@@ -67,8 +67,8 @@ Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target
     *   ### Typography
 *  The fonts chosen were Cambria, Cochin, Georgia, Times, 'Times New Roman', serif from the suggesting listing provided by Github. I tried Patrick Hand and Montserrat fonts from google fonts but settled on the fonts chosen as they were clear and familiar to the end-user and gave the quiz gravitas. They aslo provide lots of fall-back if a browser has difficult recognising the first font presented.
  * * ### Colour Scheme
-    I based my colour scheme on the following image of an ancient atlas found on unsplash 
-    ![Old Atlas image](assets/images/oldatlas.jpeg>). I did not uses this image as a background image as it slowed the loading 
+    I based my colour scheme on the following image of an ancient atlas found on unsplash. 
+    I did not use this image as a background image as it slowed the loading 
     of the website down where I was in danger of losing the user's attention. 
     I used antique white and brown throughout with a very dark grey/ black for text. 
     ![Quizarama color pallette](assets/images/readme-images/qcolorpallette.png)
@@ -187,7 +187,6 @@ The method from cloning a project from GitHub is below:
 
 ### Contents
 * The fonts came from Github.
-* 
   
 * I used a youtube tutorial by James Quick to learn how to code the following 
   *   a progress bar
@@ -211,7 +210,7 @@ The method from cloning a project from GitHub is below:
 
 # Acknowledgements
 
-The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, especially Dave Horrocks and Rachel Rock, and all at the Code Institute for their help and support, especially Kasia, my course administrator. 
+The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, especially Dave Horrocks and Rachel Rock, tutor Rebecca,  and all at the Code Institute for their help and support, especially Kasia, my course administrator. 
 
 Finally, I would like to acknowledge the class of strong and supportive women I am lucky to be part of and Mayo Sligo Leitrim ETB for giving us the opportunity to acquire the valuable skills with which I know we will go forth and conquer the world (of computing!!)
 

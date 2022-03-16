@@ -15,7 +15,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [];
- //get random questions from Open Trivia Database - external API
+//get random questions from Open Trivia Database - external API
 fetch("https://opentdb.com/api.php?amount=10&category=22&difficulty=easy&type=multiple")
 .then( function (res) {
         return res.json();

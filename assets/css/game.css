@@ -22,13 +22,15 @@
     padding: 1.5rem;
     width: 100%;
 }
+
+/*colors of correct and incorrect choices*/
 .correct{
     background-color: lightgreen;
 }
 .incorrect {
     background-color: red;
 }
-/*HUD*/
+/*Heads up display*/
 #hud{
     display: flex;
     justify-content: space-between;
@@ -40,6 +42,7 @@
 .hud-main-text {
     text-align: center;
 }
+/*progress bar*/
 #progressBar {
     width: 20rem;
     height: 4rem;
@@ -65,6 +68,7 @@
 }
 100%{ transform: rotate(360deg);}
 }
+/*for screens 600px and lower*/
 @media screen and (max-width: 600px) {
     body{
         display: flex;
