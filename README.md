@@ -98,7 +98,7 @@ Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target
    no penalty for answering a question incorrectly.
   * The middle of the page contains the geography question (taken from an API called Open Trivia Database) and the four multiple choice answers - one correct and three incorrect.
 If the user selects a correct answer , the answer box colour background changes to  bright green and if incorrect, the answer
-  *  box changes to bright red. Green for correct and red for incorrect is easily understood by the user.
+ box changes to bright red. Green for correct and red for incorrect is easily understood by the user.
   *  The game page automatically goes to the [ enter name and save score page](end.html) when the user has answered 10 questions.
   
       [back to top](<#contents>)
