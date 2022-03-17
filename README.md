@@ -1,6 +1,6 @@
 # **_Quizarama - the Geography Quiz_**
 
-Quizarama is a multiple choice geography quiz. The site is targeted at students and quiz fans and is intended to keep the user interested and challenged with the breadth of questions which are challenging but not too difficult so as to keep the end user interested in completleing the challenge and replaying the game.
+Quizarama is a multiple choice geography quiz. The site is targeted at students and quiz fans and is intended to keep the user interested and challenged with the breadth of questions which are challenging but not too difficult so as to keep the end user interested in completing the challenge and replaying the game.
 
 Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target="blank" rel="noopener">Quizarama - the Geography Quiz</a>
 
