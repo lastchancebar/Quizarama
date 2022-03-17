@@ -63,6 +63,7 @@ Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target
   game and high scores pages are accessible from the home page via button. The end page loads after the game is played.
 
   [back to top](<#contents>)
+
   ## Design Choices
     *   ### Typography
 *  The fonts chosen were Cambria, Cochin, Georgia, Times, 'Times New Roman', serif from the suggesting listing provided by Github. I tried Patrick Hand and Montserrat fonts from google fonts but settled on the fonts chosen as they were clear and familiar to the end-user and gave the quiz gravitas. They aslo provide lots of fall-back if a browser has difficult recognising the first font presented.
@@ -84,13 +85,14 @@ Welcome to <a href="https://lastchancebar.github.io/Quizarama/index.html" target
     * ### Home page
   This is the default loading page and contains the name of the quiz the subject, and links to instructions, the game and high 
   scores. The buttons are prominent and clearly labelled and invite the user into the game. 
-  ![Quizarama home page](assets/images/readme-images/qhome.png)
+  ![Quizarama home page](assets/images/readme-images/qhome.png).This clear layout makes UX easy.
 
-      [back to top](<#contents>)
 
-      * ### Game Page
-    * ![Game page](assets/images/readme-images/qgame.png)
-    *  The top left hand feature is a progress bar which tells the user the number of the question between 1-10 that they are
+
+  * ### Game Page
+  
+  * ![Game page](assets/images/readme-images/qgame.png)
+  *  The top left hand feature is a progress bar which tells the user the number of the question between 1-10 that they are
    attempting.
    * Top right hand feature is a score which increases by 10 points each time the user answers a question correcty. There is
    no penalty for answering a question incorrectly.
