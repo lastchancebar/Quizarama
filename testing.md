@@ -54,7 +54,7 @@ Goodle Chrom, Microsoft Edge, safari and Mozilla Firefoc. Appearance , functiona
   * The HTML validator showed empty heading tags in the index page and high scroes page. This information was supplied by the Js files. I added a 0 in both cased and the error was fixed.
 
 * ### Unresolved
-* The questions from open Trivia Database have not translated properly over showing up combinations of symbols instead of apostrophes. 
-* There are two ES11 warnings on End.js which I used to fix an console error. Time did not allow me to 
+  * The questions from open Trivia Database have not translated properly over showing up combinations of symbols instead of apostrophes. 
+  * There are two ES11 warnings on End.js . This syntax was used as a timely fix to a persistent console error. 
 
  Back to [README.md](./README.md#testing). 

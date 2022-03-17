@@ -120,7 +120,8 @@ If the user selects a correct answer , the answer box colour background changes 
 
   *  ## Future Features
       * Add more  levels of difficulty 
-      * Add other categories
+      * Add other more specific categories such as rivers, countries, capital cities, landmarks.
+      * Add picture questions
       * Store high scores and names in a secure storage database.
   
   # Technologies Used
