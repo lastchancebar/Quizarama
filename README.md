@@ -128,8 +128,12 @@ If the user selects a correct answer , the answer box colour background changes 
   * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling. 
   * [JS](https://www.javascript.com/about) - to manipulate the HTML pages to make the quiz interactive.
   * [Github](https://github.com/) - used to host and edit the website.
-  *  [gitpod](https://www.gitposd.io/#get-started) - used to deploy the website.
-  *  [Google Local Storage](https://developer.chrome.com/docs/devtools/storage/localstorage/) - for storing high scores and users. It is not secure but perfect for this project!
+  * [gitpod](https://www.gitposd.io/#get-started) - used to deploy the website.
+  * [Google Local Storage](https://developer.chrome.com/docs/devtools/storage/localstorage/) - for storing high scores and users. It is not secure but perfect for this project!
+  * [API] - API is an Application Programming Interface that enables interaction, access, and data / functionality exchange between two separate software systems. In essence, an API mediates the connection between the systems via an interface, creating an environment for their interaction(Google).
+    * [Chrome DevTools - local Storage](https://developer.chrome.com/docs/devtools/storage/localstorage/)
+    * [Open Trivia Database](https://opentdb.com)
+  
 
 
   [back to top](<#contents>) 
