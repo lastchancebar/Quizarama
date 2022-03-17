@@ -14,7 +14,7 @@ username?.addEventListener("keyup", () => {
    
     
 });
-
+//list the 5 highest scores 
 let saveHighScore="";
 saveHighScore = e => {
     
@@ -26,6 +26,7 @@ saveHighScore = e => {
         };
         highScores.push(score);
     highScores.sort( (a,b) => b.score -a.score);
+    //take off the list any score lower than the 5 highest scores
     highScores.splice(5);
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('index.html');
