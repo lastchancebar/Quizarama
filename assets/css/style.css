@@ -90,7 +90,7 @@ h3 {
     background-color: antiquewhite;
 }
 
-/* hover effect*/
+/* hover effect to improve UX*/
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 brown;
@@ -129,6 +129,7 @@ input {
     border:none;
     box-shadow: 0 0.1rem 1.4rem 0 brown;
 }
+/*placeholder text in light colour as per convention*/
 input ::placeholder {
     color:#aaa;
 }
